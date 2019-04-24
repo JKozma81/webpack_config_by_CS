@@ -18,7 +18,7 @@ module.exports = {
       },
       {
         // For the image files use file-loader to move them over to dist folder with the provided options
-        test: /\.(svg|png|jpg|gif)$/,
+        test: /\.(svg|png|jpg|jpeg|bmp|gif)$/,
         use: {
           loader: 'file-loader',
           options: {
